@@ -1,0 +1,3 @@
+function copyText(id){const element=document.getElementById(id);navigator.clipboard.writeText(element.value||element.textContent);}
+function generateEncryptionKey(){const bytes=new Uint8Array(32);crypto.getRandomValues(bytes);let value='';bytes.forEach(byte=>value+=String.fromCharCode(byte));document.getElementById('encryptionKey').value=btoa(value).replace(/\+/g,'-').replace(/\//g,'_');}
+if(window.chartStats){new Chart(document.getElementById('activityChart'),{type:'bar',data:{labels:['Scans','Open ports','High risk','Reports'],datasets:[{label:'Activity',data:window.chartStats,backgroundColor:['#39d5ff','#49e3a5','#ff6464','#a482ff'],borderRadius:7}]},options:{plugins:{legend:{display:false}},scales:{y:{beginAtZero:true}}}})}
