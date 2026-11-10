@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / debug Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python/wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Flask-SocketIO / logs
+logs/
+*.log
+server.out
+server.err
+
+# SQLite database (user data)
+database.db
+database.db-journal
+
+# Uploads folder (user-uploaded files)
+uploads/
+uploads/*
+
+# Generated reports
+reports/report_*.pdf
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS / temporary files
+.DS_Store
+Thumbs.db

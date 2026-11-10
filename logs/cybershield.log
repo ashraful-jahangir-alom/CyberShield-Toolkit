@@ -360,3 +360,323 @@
 2026-07-27 20:32:41,308 INFO  * Restarting with stat
 2026-07-27 20:32:42,944 WARNING  * Debugger is active!
 2026-07-27 20:32:42,946 INFO  * Debugger PIN: 961-358-178
+2026-09-11 11:28:02,363 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-09-11 11:28:02,364 INFO Press CTRL+C to quit
+2026-09-11 11:28:02,367 INFO  * Restarting with stat
+2026-09-11 11:28:03,869 WARNING  * Debugger is active!
+2026-09-11 11:28:03,886 INFO  * Debugger PIN: 746-445-104
+2026-09-11 11:28:10,701 INFO 127.0.0.1 - - [11/Sep/2026 11:28:10] "GET / HTTP/1.1" 302 -
+2026-09-11 11:28:10,822 INFO 127.0.0.1 - - [11/Sep/2026 11:28:10] "GET /login HTTP/1.1" 200 -
+2026-09-11 11:28:10,963 INFO 127.0.0.1 - - [11/Sep/2026 11:28:10] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-09-11 11:28:10,986 INFO 127.0.0.1 - - [11/Sep/2026 11:28:10] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-09-11 11:28:11,319 INFO 127.0.0.1 - - [11/Sep/2026 11:28:11] "GET /favicon.ico HTTP/1.1" 404 -
+2026-09-11 12:08:18,321 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-09-11 12:08:18,323 INFO Press CTRL+C to quit
+2026-09-11 12:08:18,326 INFO  * Restarting with stat
+2026-09-11 12:08:19,942 WARNING  * Debugger is active!
+2026-09-11 12:08:19,945 INFO  * Debugger PIN: 681-393-601
+2026-09-11 12:08:29,493 INFO 127.0.0.1 - - [11/Sep/2026 12:08:29] "GET / HTTP/1.1" 302 -
+2026-09-11 12:08:29,580 INFO 127.0.0.1 - - [11/Sep/2026 12:08:29] "GET /login HTTP/1.1" 200 -
+2026-09-11 12:08:29,934 INFO 127.0.0.1 - - [11/Sep/2026 12:08:29] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-09-11 12:08:29,936 INFO 127.0.0.1 - - [11/Sep/2026 12:08:29] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-11 12:08:30,086 INFO 127.0.0.1 - - [11/Sep/2026 12:08:30] "GET /favicon.ico HTTP/1.1" 404 -
+2026-09-11 12:08:54,425 INFO 127.0.0.1 - - [11/Sep/2026 12:08:54] "POST /login HTTP/1.1" 302 -
+2026-09-11 12:08:54,590 INFO 127.0.0.1 - - [11/Sep/2026 12:08:54] "GET /dashboard HTTP/1.1" 200 -
+2026-09-11 12:08:54,642 INFO 127.0.0.1 - - [11/Sep/2026 12:08:54] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-11 12:08:54,701 INFO 127.0.0.1 - - [11/Sep/2026 12:08:54] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-09-11 12:09:05,066 INFO 127.0.0.1 - - [11/Sep/2026 12:09:05] "GET /information HTTP/1.1" 200 -
+2026-09-11 12:09:05,089 INFO 127.0.0.1 - - [11/Sep/2026 12:09:05] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-11 12:09:05,093 INFO 127.0.0.1 - - [11/Sep/2026 12:09:05] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-09-11 12:09:05,863 INFO 127.0.0.1 - - [11/Sep/2026 12:09:05] "GET /network HTTP/1.1" 200 -
+2026-09-11 12:09:05,881 INFO 127.0.0.1 - - [11/Sep/2026 12:09:05] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-11 12:09:05,883 INFO 127.0.0.1 - - [11/Sep/2026 12:09:05] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-09-11 12:09:06,639 INFO 127.0.0.1 - - [11/Sep/2026 12:09:06] "GET /ports HTTP/1.1" 200 -
+2026-09-11 12:09:06,655 INFO 127.0.0.1 - - [11/Sep/2026 12:09:06] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-11 12:09:06,665 INFO 127.0.0.1 - - [11/Sep/2026 12:09:06] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-09-11 12:09:07,600 INFO 127.0.0.1 - - [11/Sep/2026 12:09:07] "GET /webscan HTTP/1.1" 200 -
+2026-09-11 12:09:07,620 INFO 127.0.0.1 - - [11/Sep/2026 12:09:07] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-11 12:09:07,628 INFO 127.0.0.1 - - [11/Sep/2026 12:09:07] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-09-11 12:09:08,501 INFO 127.0.0.1 - - [11/Sep/2026 12:09:08] "GET /vulnerability HTTP/1.1" 200 -
+2026-09-11 12:09:08,521 INFO 127.0.0.1 - - [11/Sep/2026 12:09:08] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-11 12:09:08,533 INFO 127.0.0.1 - - [11/Sep/2026 12:09:08] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-09-11 12:09:09,143 INFO 127.0.0.1 - - [11/Sep/2026 12:09:09] "GET /hash HTTP/1.1" 200 -
+2026-09-11 12:09:09,161 INFO 127.0.0.1 - - [11/Sep/2026 12:09:09] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-11 12:09:09,169 INFO 127.0.0.1 - - [11/Sep/2026 12:09:09] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-09-11 12:09:15,601 INFO 127.0.0.1 - - [11/Sep/2026 12:09:15] "GET /ports HTTP/1.1" 200 -
+2026-09-11 12:09:15,628 INFO 127.0.0.1 - - [11/Sep/2026 12:09:15] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-11 12:09:15,632 INFO 127.0.0.1 - - [11/Sep/2026 12:09:15] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-09-11 12:09:17,628 INFO 127.0.0.1 - - [11/Sep/2026 12:09:17] "GET /webscan HTTP/1.1" 200 -
+2026-09-11 12:09:17,651 INFO 127.0.0.1 - - [11/Sep/2026 12:09:17] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-11 12:09:17,654 INFO 127.0.0.1 - - [11/Sep/2026 12:09:17] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-09-11 12:09:22,134 INFO 127.0.0.1 - - [11/Sep/2026 12:09:22] "GET /vulnerability HTTP/1.1" 200 -
+2026-09-11 12:09:22,157 INFO 127.0.0.1 - - [11/Sep/2026 12:09:22] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-11 12:09:22,161 INFO 127.0.0.1 - - [11/Sep/2026 12:09:22] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-09-11 12:09:25,265 INFO 127.0.0.1 - - [11/Sep/2026 12:09:25] "GET /dashboard HTTP/1.1" 200 -
+2026-09-11 12:09:25,291 INFO 127.0.0.1 - - [11/Sep/2026 12:09:25] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-11 12:09:25,295 INFO 127.0.0.1 - - [11/Sep/2026 12:09:25] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-09-11 12:09:27,988 INFO 127.0.0.1 - - [11/Sep/2026 12:09:27] "GET /information HTTP/1.1" 200 -
+2026-09-11 12:09:28,013 INFO 127.0.0.1 - - [11/Sep/2026 12:09:28] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-11 12:09:28,021 INFO 127.0.0.1 - - [11/Sep/2026 12:09:28] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-09-11 12:09:29,139 INFO 127.0.0.1 - - [11/Sep/2026 12:09:29] "GET /network HTTP/1.1" 200 -
+2026-09-11 12:09:29,165 INFO 127.0.0.1 - - [11/Sep/2026 12:09:29] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-11 12:09:29,169 INFO 127.0.0.1 - - [11/Sep/2026 12:09:29] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-09-11 12:09:31,609 INFO 127.0.0.1 - - [11/Sep/2026 12:09:31] "GET /ports HTTP/1.1" 200 -
+2026-09-11 12:09:31,633 INFO 127.0.0.1 - - [11/Sep/2026 12:09:31] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-11 12:09:31,639 INFO 127.0.0.1 - - [11/Sep/2026 12:09:31] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-09-11 12:09:32,490 INFO 127.0.0.1 - - [11/Sep/2026 12:09:32] "GET /webscan HTTP/1.1" 200 -
+2026-09-11 12:09:32,517 INFO 127.0.0.1 - - [11/Sep/2026 12:09:32] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-11 12:09:32,523 INFO 127.0.0.1 - - [11/Sep/2026 12:09:32] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-09-11 12:09:35,201 INFO 127.0.0.1 - - [11/Sep/2026 12:09:35] "GET /vulnerability HTTP/1.1" 200 -
+2026-09-11 12:09:35,229 INFO 127.0.0.1 - - [11/Sep/2026 12:09:35] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-11 12:09:35,231 INFO 127.0.0.1 - - [11/Sep/2026 12:09:35] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-09-11 12:14:37,973 INFO Vulnerability Scanner scan on www.apnasheikhpura.in by admin
+2026-09-11 12:14:37,975 INFO 127.0.0.1 - - [11/Sep/2026 12:14:37] "POST /vulnerability HTTP/1.1" 200 -
+2026-09-11 12:14:38,002 INFO 127.0.0.1 - - [11/Sep/2026 12:14:38] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-11 12:14:38,014 INFO 127.0.0.1 - - [11/Sep/2026 12:14:38] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-09-11 12:17:13,424 INFO 127.0.0.1 - - [11/Sep/2026 12:17:13] "GET /password HTTP/1.1" 200 -
+2026-09-11 12:17:13,443 INFO 127.0.0.1 - - [11/Sep/2026 12:17:13] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-11 12:17:13,444 INFO 127.0.0.1 - - [11/Sep/2026 12:17:13] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-09-11 12:17:17,840 INFO 127.0.0.1 - - [11/Sep/2026 12:17:17] "POST /password HTTP/1.1" 200 -
+2026-09-11 12:17:17,860 INFO 127.0.0.1 - - [11/Sep/2026 12:17:17] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-11 12:17:17,862 INFO 127.0.0.1 - - [11/Sep/2026 12:17:17] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-09-11 12:17:29,440 INFO 127.0.0.1 - - [11/Sep/2026 12:17:29] "GET /hash HTTP/1.1" 200 -
+2026-09-11 12:17:29,466 INFO 127.0.0.1 - - [11/Sep/2026 12:17:29] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-11 12:17:29,466 INFO 127.0.0.1 - - [11/Sep/2026 12:17:29] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-09-11 12:17:31,832 INFO 127.0.0.1 - - [11/Sep/2026 12:17:31] "GET /encrypt HTTP/1.1" 200 -
+2026-09-11 12:17:31,846 INFO 127.0.0.1 - - [11/Sep/2026 12:17:31] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-11 12:17:31,847 INFO 127.0.0.1 - - [11/Sep/2026 12:17:31] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-09-11 12:18:07,132 INFO 127.0.0.1 - - [11/Sep/2026 12:18:07] "POST /encrypt HTTP/1.1" 200 -
+2026-10-30 10:19:22,054 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-10-30 10:19:22,055 INFO Press CTRL+C to quit
+2026-10-30 10:19:22,081 INFO  * Restarting with stat
+2026-10-30 10:19:27,123 WARNING  * Debugger is active!
+2026-10-30 10:19:27,143 INFO  * Debugger PIN: 139-633-085
+2026-10-30 10:20:02,302 INFO 127.0.0.1 - - [30/Oct/2026 10:20:02] "HEAD / HTTP/1.1" 302 -
+2026-10-30 10:20:32,483 INFO The CSRF token is missing.
+2026-10-30 10:21:36,968 INFO The CSRF token is missing.
+2026-10-30 10:21:36,970 INFO The CSRF token is missing.
+2026-10-30 10:21:36,973 INFO The CSRF token is missing.
+2026-10-30 10:21:36,974 INFO The CSRF token is missing.
+2026-10-30 10:21:36,975 INFO The CSRF token is missing.
+2026-10-30 10:21:36,977 INFO The CSRF token is missing.
+2026-10-30 10:21:36,980 INFO The CSRF token is missing.
+2026-10-30 10:21:36,982 INFO The CSRF token is missing.
+2026-10-30 10:21:36,983 INFO The CSRF token is missing.
+2026-10-30 10:21:56,752 INFO Port Scanner scan on example.com by admin
+2026-10-30 10:22:00,109 INFO Website Scanner scan on example.com by admin
+2026-10-30 10:22:06,373 INFO Vulnerability Scanner scan on example.com by admin
+2026-10-30 10:23:06,564 INFO  * Detected change in 'C:\\CyberChieldToolKit\\app.py', reloading
+2026-10-30 10:23:09,412 INFO  * Restarting with stat
+2026-10-30 10:23:26,705 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-10-30 10:23:26,705 INFO Press CTRL+C to quit
+2026-10-30 10:23:26,712 INFO  * Restarting with stat
+2026-10-30 10:23:33,620 WARNING  * Debugger is active!
+2026-10-30 10:23:33,629 INFO  * Debugger PIN: 139-633-085
+2026-10-30 10:23:53,266 INFO 127.0.0.1 - - [30/Oct/2026 10:23:53] "HEAD / HTTP/1.1" 302 -
+2026-10-30 10:24:09,963 INFO 127.0.0.1 - - [30/Oct/2026 10:24:09] "GET / HTTP/1.1" 302 -
+2026-10-30 10:24:10,025 INFO 127.0.0.1 - - [30/Oct/2026 10:24:10] "GET /login HTTP/1.1" 200 -
+2026-10-30 10:24:10,287 INFO 127.0.0.1 - - [30/Oct/2026 10:24:10] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-10-30 10:24:10,337 INFO 127.0.0.1 - - [30/Oct/2026 10:24:10] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-10-30 10:24:10,823 INFO 127.0.0.1 - - [30/Oct/2026 10:24:10] "GET /favicon.ico HTTP/1.1" 404 -
+2026-11-02 14:33:33,666 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-02 14:33:33,667 INFO Press CTRL+C to quit
+2026-11-02 14:33:33,673 INFO  * Restarting with stat
+2026-11-02 14:33:41,264 WARNING  * Debugger is active!
+2026-11-02 14:33:41,276 INFO  * Debugger PIN: 681-393-601
+2026-11-02 14:34:08,580 INFO 127.0.0.1 - - [02/Nov/2026 14:34:08] "HEAD / HTTP/1.1" 302 -
+2026-11-02 14:34:38,213 INFO The CSRF token is invalid.
+2026-11-02 14:39:37,547 INFO The CSRF token is missing.
+2026-11-02 14:40:45,260 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-02 14:40:45,260 INFO Press CTRL+C to quit
+2026-11-02 14:40:45,269 INFO  * Restarting with stat
+2026-11-02 14:40:53,443 WARNING  * Debugger is active!
+2026-11-02 14:40:53,459 INFO  * Debugger PIN: 681-393-601
+2026-11-02 14:41:05,825 INFO 127.0.0.1 - - [02/Nov/2026 14:41:05] "HEAD / HTTP/1.1" 302 -
+2026-11-02 14:51:36,432 INFO 127.0.0.1 - - [02/Nov/2026 14:51:36] "GET / HTTP/1.1" 302 -
+2026-11-02 14:51:36,818 INFO 127.0.0.1 - - [02/Nov/2026 14:51:36] "GET /login HTTP/1.1" 200 -
+2026-11-02 14:51:37,188 INFO 127.0.0.1 - - [02/Nov/2026 14:51:37] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-11-02 14:51:38,197 INFO 127.0.0.1 - - [02/Nov/2026 14:51:38] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-11-02 14:52:24,147 INFO 127.0.0.1 - - [02/Nov/2026 14:52:24] "GET /favicon.ico HTTP/1.1" 404 -
+2026-11-02 14:57:13,987 INFO 127.0.0.1 - - [02/Nov/2026 14:57:13] "POST /login HTTP/1.1" 200 -
+2026-11-02 14:57:14,221 INFO 127.0.0.1 - - [02/Nov/2026 14:57:14] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-02 14:57:14,652 INFO 127.0.0.1 - - [02/Nov/2026 14:57:14] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-02 14:57:54,371 INFO 127.0.0.1 - - [02/Nov/2026 14:57:54] "POST /login HTTP/1.1" 302 -
+2026-11-02 14:57:56,028 INFO 127.0.0.1 - - [02/Nov/2026 14:57:56] "GET /dashboard HTTP/1.1" 200 -
+2026-11-02 14:57:56,107 INFO 127.0.0.1 - - [02/Nov/2026 14:57:56] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-02 14:57:56,126 INFO 127.0.0.1 - - [02/Nov/2026 14:57:56] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-02 14:58:05,818 INFO 127.0.0.1 - - [02/Nov/2026 14:58:05] "GET /information HTTP/1.1" 200 -
+2026-11-02 14:58:05,840 INFO 127.0.0.1 - - [02/Nov/2026 14:58:05] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-02 14:58:05,885 INFO 127.0.0.1 - - [02/Nov/2026 14:58:05] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-02 14:58:07,197 INFO 127.0.0.1 - - [02/Nov/2026 14:58:07] "GET /network HTTP/1.1" 200 -
+2026-11-02 14:58:07,235 INFO 127.0.0.1 - - [02/Nov/2026 14:58:07] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-02 14:58:07,280 INFO 127.0.0.1 - - [02/Nov/2026 14:58:07] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-02 14:58:08,555 INFO 127.0.0.1 - - [02/Nov/2026 14:58:08] "GET /ports HTTP/1.1" 200 -
+2026-11-02 14:58:08,585 INFO 127.0.0.1 - - [02/Nov/2026 14:58:08] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-02 14:58:08,618 INFO 127.0.0.1 - - [02/Nov/2026 14:58:08] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-02 14:58:10,285 INFO 127.0.0.1 - - [02/Nov/2026 14:58:10] "GET /webscan HTTP/1.1" 200 -
+2026-11-02 14:58:10,336 INFO 127.0.0.1 - - [02/Nov/2026 14:58:10] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-02 14:58:10,385 INFO 127.0.0.1 - - [02/Nov/2026 14:58:10] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-02 14:58:11,720 INFO 127.0.0.1 - - [02/Nov/2026 14:58:11] "GET /vulnerability HTTP/1.1" 200 -
+2026-11-02 14:58:11,745 INFO 127.0.0.1 - - [02/Nov/2026 14:58:11] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-02 14:58:11,787 INFO 127.0.0.1 - - [02/Nov/2026 14:58:11] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-02 14:58:13,112 INFO 127.0.0.1 - - [02/Nov/2026 14:58:13] "GET /password HTTP/1.1" 200 -
+2026-11-02 14:58:13,189 INFO 127.0.0.1 - - [02/Nov/2026 14:58:13] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-02 14:58:13,198 INFO 127.0.0.1 - - [02/Nov/2026 14:58:13] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-02 14:58:14,471 INFO 127.0.0.1 - - [02/Nov/2026 14:58:14] "GET /hash HTTP/1.1" 200 -
+2026-11-02 14:58:14,562 INFO 127.0.0.1 - - [02/Nov/2026 14:58:14] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-02 14:58:14,582 INFO 127.0.0.1 - - [02/Nov/2026 14:58:14] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-02 14:58:15,989 INFO 127.0.0.1 - - [02/Nov/2026 14:58:15] "GET /reports HTTP/1.1" 200 -
+2026-11-02 14:58:16,020 INFO 127.0.0.1 - - [02/Nov/2026 14:58:16] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-02 14:58:16,056 INFO 127.0.0.1 - - [02/Nov/2026 14:58:16] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-02 14:58:17,036 INFO 127.0.0.1 - - [02/Nov/2026 14:58:17] "GET /encrypt HTTP/1.1" 200 -
+2026-11-02 14:58:17,065 INFO 127.0.0.1 - - [02/Nov/2026 14:58:17] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-02 14:58:17,105 INFO 127.0.0.1 - - [02/Nov/2026 14:58:17] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-02 14:58:19,778 INFO 127.0.0.1 - - [02/Nov/2026 14:58:19] "GET /logs HTTP/1.1" 200 -
+2026-11-02 14:58:19,814 INFO 127.0.0.1 - - [02/Nov/2026 14:58:19] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-02 14:58:19,868 INFO 127.0.0.1 - - [02/Nov/2026 14:58:19] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-02 14:58:24,005 INFO 127.0.0.1 - - [02/Nov/2026 14:58:24] "GET /dashboard HTTP/1.1" 200 -
+2026-11-02 14:58:24,056 INFO 127.0.0.1 - - [02/Nov/2026 14:58:24] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-02 14:58:24,080 INFO 127.0.0.1 - - [02/Nov/2026 14:58:24] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-02 14:58:48,636 INFO 127.0.0.1 - - [02/Nov/2026 14:58:48] "GET /information HTTP/1.1" 200 -
+2026-11-02 14:58:48,668 INFO 127.0.0.1 - - [02/Nov/2026 14:58:48] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-02 14:58:48,724 INFO 127.0.0.1 - - [02/Nov/2026 14:58:48] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-02 14:58:54,639 INFO 127.0.0.1 - - [02/Nov/2026 14:58:54] "GET /dashboard HTTP/1.1" 200 -
+2026-11-02 14:58:54,676 INFO 127.0.0.1 - - [02/Nov/2026 14:58:54] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-02 14:58:54,697 INFO 127.0.0.1 - - [02/Nov/2026 14:58:54] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-02 14:58:57,302 INFO 127.0.0.1 - - [02/Nov/2026 14:58:57] "GET /dashboard HTTP/1.1" 200 -
+2026-11-02 14:58:57,383 INFO 127.0.0.1 - - [02/Nov/2026 14:58:57] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-02 14:58:57,472 INFO 127.0.0.1 - - [02/Nov/2026 14:58:57] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-02 14:58:58,119 INFO 127.0.0.1 - - [02/Nov/2026 14:58:58] "GET /information HTTP/1.1" 200 -
+2026-11-02 14:58:58,171 INFO 127.0.0.1 - - [02/Nov/2026 14:58:58] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-02 14:58:58,240 INFO 127.0.0.1 - - [02/Nov/2026 14:58:58] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-02 14:58:59,077 INFO 127.0.0.1 - - [02/Nov/2026 14:58:59] "GET /dashboard HTTP/1.1" 200 -
+2026-11-02 14:58:59,107 INFO 127.0.0.1 - - [02/Nov/2026 14:58:59] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-02 14:58:59,147 INFO 127.0.0.1 - - [02/Nov/2026 14:58:59] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-02 14:59:16,821 INFO 127.0.0.1 - - [02/Nov/2026 14:59:16] "GET /logs HTTP/1.1" 200 -
+2026-11-02 14:59:16,869 INFO 127.0.0.1 - - [02/Nov/2026 14:59:16] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-02 14:59:16,898 INFO 127.0.0.1 - - [02/Nov/2026 14:59:16] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-02 14:59:22,559 INFO 127.0.0.1 - - [02/Nov/2026 14:59:22] "GET /settings HTTP/1.1" 200 -
+2026-11-02 14:59:22,637 INFO 127.0.0.1 - - [02/Nov/2026 14:59:22] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-02 14:59:22,660 INFO 127.0.0.1 - - [02/Nov/2026 14:59:22] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-02 14:59:24,733 INFO 127.0.0.1 - - [02/Nov/2026 14:59:24] "GET /dashboard HTTP/1.1" 200 -
+2026-11-02 14:59:24,772 INFO 127.0.0.1 - - [02/Nov/2026 14:59:24] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-02 14:59:24,801 INFO 127.0.0.1 - - [02/Nov/2026 14:59:24] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-03 06:16:50,602 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-03 06:16:50,603 INFO Press CTRL+C to quit
+2026-11-03 06:16:50,606 INFO  * Restarting with stat
+2026-11-03 06:16:51,906 WARNING  * Debugger is active!
+2026-11-03 06:16:51,909 INFO  * Debugger PIN: 115-288-061
+2026-11-03 06:17:21,083 INFO 127.0.0.1 - - [03/Nov/2026 06:17:21] "GET / HTTP/1.1" 302 -
+2026-11-03 06:17:21,207 INFO 127.0.0.1 - - [03/Nov/2026 06:17:21] "GET /login HTTP/1.1" 200 -
+2026-11-03 06:17:21,316 INFO 127.0.0.1 - - [03/Nov/2026 06:17:21] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-11-03 06:17:21,335 INFO 127.0.0.1 - - [03/Nov/2026 06:17:21] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-11-03 06:17:23,902 INFO 127.0.0.1 - - [03/Nov/2026 06:17:23] "GET /favicon.ico HTTP/1.1" 404 -
+2026-11-03 06:17:33,219 INFO 127.0.0.1 - - [03/Nov/2026 06:17:33] "GET / HTTP/1.1" 302 -
+2026-11-03 06:17:33,361 INFO 127.0.0.1 - - [03/Nov/2026 06:17:33] "GET /dashboard HTTP/1.1" 200 -
+2026-11-03 06:17:33,378 INFO 127.0.0.1 - - [03/Nov/2026 06:17:33] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-11-03 06:17:34,284 INFO 127.0.0.1 - - [03/Nov/2026 06:17:34] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-11-03 06:17:40,420 INFO 127.0.0.1 - - [03/Nov/2026 06:17:40] "GET /favicon.ico HTTP/1.1" 404 -
+2026-11-03 06:17:46,984 INFO 127.0.0.1 - - [03/Nov/2026 06:17:46] "GET /dashboard HTTP/1.1" 200 -
+2026-11-03 06:17:47,024 INFO 127.0.0.1 - - [03/Nov/2026 06:17:47] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-03 06:17:47,032 INFO 127.0.0.1 - - [03/Nov/2026 06:17:47] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-03 06:17:47,859 INFO 127.0.0.1 - - [03/Nov/2026 06:17:47] "GET /information HTTP/1.1" 200 -
+2026-11-03 06:17:47,887 INFO 127.0.0.1 - - [03/Nov/2026 06:17:47] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-03 06:17:47,892 INFO 127.0.0.1 - - [03/Nov/2026 06:17:47] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-03 06:17:48,955 INFO 127.0.0.1 - - [03/Nov/2026 06:17:48] "GET /dashboard HTTP/1.1" 200 -
+2026-11-03 06:17:48,984 INFO 127.0.0.1 - - [03/Nov/2026 06:17:48] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-03 06:17:48,992 INFO 127.0.0.1 - - [03/Nov/2026 06:17:48] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-03 06:17:50,120 INFO 127.0.0.1 - - [03/Nov/2026 06:17:50] "GET /information HTTP/1.1" 200 -
+2026-11-03 06:17:50,145 INFO 127.0.0.1 - - [03/Nov/2026 06:17:50] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-03 06:17:50,165 INFO 127.0.0.1 - - [03/Nov/2026 06:17:50] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-03 06:17:51,259 INFO 127.0.0.1 - - [03/Nov/2026 06:17:51] "GET /network HTTP/1.1" 200 -
+2026-11-03 06:17:51,287 INFO 127.0.0.1 - - [03/Nov/2026 06:17:51] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-03 06:17:51,303 INFO 127.0.0.1 - - [03/Nov/2026 06:17:51] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-03 06:17:52,336 INFO 127.0.0.1 - - [03/Nov/2026 06:17:52] "GET /ports HTTP/1.1" 200 -
+2026-11-03 06:17:52,358 INFO 127.0.0.1 - - [03/Nov/2026 06:17:52] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-03 06:17:52,364 INFO 127.0.0.1 - - [03/Nov/2026 06:17:52] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-03 06:17:53,628 INFO 127.0.0.1 - - [03/Nov/2026 06:17:53] "GET /webscan HTTP/1.1" 200 -
+2026-11-03 06:17:53,670 INFO 127.0.0.1 - - [03/Nov/2026 06:17:53] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-03 06:17:53,674 INFO 127.0.0.1 - - [03/Nov/2026 06:17:53] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-03 06:17:54,812 INFO 127.0.0.1 - - [03/Nov/2026 06:17:54] "GET /vulnerability HTTP/1.1" 200 -
+2026-11-03 06:17:54,851 INFO 127.0.0.1 - - [03/Nov/2026 06:17:54] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-03 06:17:54,862 INFO 127.0.0.1 - - [03/Nov/2026 06:17:54] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-03 06:17:58,333 INFO 127.0.0.1 - - [03/Nov/2026 06:17:58] "GET /dashboard HTTP/1.1" 200 -
+2026-11-03 06:17:58,366 INFO 127.0.0.1 - - [03/Nov/2026 06:17:58] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-03 06:17:58,376 INFO 127.0.0.1 - - [03/Nov/2026 06:17:58] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-03 06:18:05,667 INFO 127.0.0.1 - - [03/Nov/2026 06:18:05] "GET /password HTTP/1.1" 200 -
+2026-11-03 06:18:05,696 INFO 127.0.0.1 - - [03/Nov/2026 06:18:05] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-03 06:18:05,713 INFO 127.0.0.1 - - [03/Nov/2026 06:18:05] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-03 06:18:08,673 INFO 127.0.0.1 - - [03/Nov/2026 06:18:08] "GET /hash HTTP/1.1" 200 -
+2026-11-03 06:18:08,705 INFO 127.0.0.1 - - [03/Nov/2026 06:18:08] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-03 06:18:08,719 INFO 127.0.0.1 - - [03/Nov/2026 06:18:08] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-03 06:18:49,868 INFO 127.0.0.1 - - [03/Nov/2026 06:18:49] "POST /hash HTTP/1.1" 200 -
+2026-11-03 06:18:49,902 INFO 127.0.0.1 - - [03/Nov/2026 06:18:49] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-03 06:18:49,903 INFO 127.0.0.1 - - [03/Nov/2026 06:18:49] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-03 12:41:08,362 INFO 127.0.0.1 - - [03/Nov/2026 12:41:08] "GET /dashboard HTTP/1.1" 200 -
+2026-11-03 12:41:08,391 INFO 127.0.0.1 - - [03/Nov/2026 12:41:08] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-03 12:41:08,402 INFO 127.0.0.1 - - [03/Nov/2026 12:41:08] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-03 12:41:13,298 INFO 127.0.0.1 - - [03/Nov/2026 12:41:13] "GET /information HTTP/1.1" 200 -
+2026-11-03 12:41:13,319 INFO 127.0.0.1 - - [03/Nov/2026 12:41:13] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-03 12:41:13,325 INFO 127.0.0.1 - - [03/Nov/2026 12:41:13] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-03 12:41:14,498 INFO 127.0.0.1 - - [03/Nov/2026 12:41:14] "GET /dashboard HTTP/1.1" 200 -
+2026-11-03 12:41:14,534 INFO 127.0.0.1 - - [03/Nov/2026 12:41:14] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-03 12:41:14,542 INFO 127.0.0.1 - - [03/Nov/2026 12:41:14] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-03 12:41:15,724 INFO 127.0.0.1 - - [03/Nov/2026 12:41:15] "GET /information HTTP/1.1" 200 -
+2026-11-03 12:41:15,745 INFO 127.0.0.1 - - [03/Nov/2026 12:41:15] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-03 12:41:15,747 INFO 127.0.0.1 - - [03/Nov/2026 12:41:15] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-03 12:41:18,103 INFO 127.0.0.1 - - [03/Nov/2026 12:41:18] "GET /dashboard HTTP/1.1" 200 -
+2026-11-03 12:41:18,118 INFO 127.0.0.1 - - [03/Nov/2026 12:41:18] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-03 12:41:18,122 INFO 127.0.0.1 - - [03/Nov/2026 12:41:18] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-03 12:41:20,606 INFO 127.0.0.1 - - [03/Nov/2026 12:41:20] "GET /dashboard HTTP/1.1" 200 -
+2026-11-03 12:41:20,750 INFO 127.0.0.1 - - [03/Nov/2026 12:41:20] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-03 12:41:20,777 INFO 127.0.0.1 - - [03/Nov/2026 12:41:20] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-03 12:41:23,298 INFO 127.0.0.1 - - [03/Nov/2026 12:41:23] "GET /information HTTP/1.1" 200 -
+2026-11-03 12:41:23,319 INFO 127.0.0.1 - - [03/Nov/2026 12:41:23] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-03 12:41:23,324 INFO 127.0.0.1 - - [03/Nov/2026 12:41:23] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-03 12:41:25,987 INFO 127.0.0.1 - - [03/Nov/2026 12:41:25] "GET /network HTTP/1.1" 200 -
+2026-11-03 12:41:26,005 INFO 127.0.0.1 - - [03/Nov/2026 12:41:26] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-03 12:41:26,016 INFO 127.0.0.1 - - [03/Nov/2026 12:41:26] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-03 12:43:12,380 INFO 127.0.0.1 - - [03/Nov/2026 12:43:12] "POST /network HTTP/1.1" 200 -
+2026-11-03 12:43:12,399 INFO 127.0.0.1 - - [03/Nov/2026 12:43:12] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-03 12:43:12,406 INFO 127.0.0.1 - - [03/Nov/2026 12:43:12] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-03 12:44:39,701 INFO The CSRF token has expired.
+2026-11-03 12:44:39,702 INFO 127.0.0.1 - - [03/Nov/2026 12:44:39] "POST /login HTTP/1.1" 400 -
+2026-11-10 21:36:41,098 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-10 21:36:41,098 INFO Press CTRL+C to quit
+2026-11-10 21:36:41,101 INFO  * Restarting with stat
+2026-11-10 21:36:42,702 WARNING  * Debugger is active!
+2026-11-10 21:36:42,705 INFO  * Debugger PIN: 681-393-601
+2026-11-10 21:36:43,720 INFO  * Detected change in 'C:\\CyberChieldToolKit\\app.py', reloading
+2026-11-10 21:36:43,954 INFO  * Restarting with stat
+2026-11-10 21:41:24,529 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-10 21:41:24,529 INFO Press CTRL+C to quit
+2026-11-10 21:41:24,532 INFO  * Restarting with stat
+2026-11-10 21:41:26,201 WARNING  * Debugger is active!
+2026-11-10 21:41:26,205 INFO  * Debugger PIN: 115-288-061
+2026-11-10 21:41:26,924 INFO 127.0.0.1 - - [10/Nov/2026 21:41:26] "GET / HTTP/1.1" 302 -
+2026-11-10 21:41:26,999 INFO 127.0.0.1 - - [10/Nov/2026 21:41:26] "GET /login HTTP/1.1" 200 -
+2026-11-10 21:41:27,099 INFO 127.0.0.1 - - [10/Nov/2026 21:41:27] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-10 21:41:27,118 INFO 127.0.0.1 - - [10/Nov/2026 21:41:27] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-10 21:41:27,279 INFO 127.0.0.1 - - [10/Nov/2026 21:41:27] "GET /favicon.ico HTTP/1.1" 404 -
+2026-11-10 21:41:58,360 INFO 127.0.0.1 - - [10/Nov/2026 21:41:58] "POST /login HTTP/1.1" 302 -
+2026-11-10 21:41:58,415 INFO 127.0.0.1 - - [10/Nov/2026 21:41:58] "GET /dashboard HTTP/1.1" 200 -
+2026-11-10 21:41:58,435 INFO 127.0.0.1 - - [10/Nov/2026 21:41:58] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-10 21:41:58,435 INFO 127.0.0.1 - - [10/Nov/2026 21:41:58] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-10 21:41:58,570 INFO 127.0.0.1 - - [10/Nov/2026 21:41:58] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-10 21:42:00,344 INFO 127.0.0.1 - - [10/Nov/2026 21:42:00] "GET /information HTTP/1.1" 200 -
+2026-11-10 21:42:00,358 INFO 127.0.0.1 - - [10/Nov/2026 21:42:00] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-10 21:42:00,360 INFO 127.0.0.1 - - [10/Nov/2026 21:42:00] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-10 21:42:00,410 INFO 127.0.0.1 - - [10/Nov/2026 21:42:00] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-10 21:42:04,405 INFO 127.0.0.1 - - [10/Nov/2026 21:42:04] "GET /network HTTP/1.1" 200 -
+2026-11-10 21:42:04,421 INFO 127.0.0.1 - - [10/Nov/2026 21:42:04] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-11-10 21:42:04,423 INFO 127.0.0.1 - - [10/Nov/2026 21:42:04] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-10 21:42:04,465 INFO 127.0.0.1 - - [10/Nov/2026 21:42:04] "GET /static/css/style.css HTTP/1.1" 304 -
