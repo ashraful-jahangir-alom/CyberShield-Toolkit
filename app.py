@@ -28,7 +28,11 @@ def create_app():
     db.init_app(app); CSRFProtect(app)
     limiter = Limiter(get_remote_address, app=app, default_limits=['200 per day', '50 per hour'], storage_uri='memory://')
     login_manager = LoginManager(app); login_manager.login_view = 'login'; login_manager.login_message_category = 'warning'
-    logging.basicConfig(filename=Path('logs') / 'cybershield.log', level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
+    if os.getenv("VERCEL") or os.getenv("VERCEL_ENV"):
+        logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
+    else:
+        Path('logs').mkdir(exist_ok=True)
+        logging.basicConfig(filename=Path('logs') / 'cybershield.log', level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
     @login_manager.user_loader
     def load_user(user_id): return db.session.get(User, int(user_id))
     with app.app_context():
