@@ -70,6 +70,8 @@ def create_app():
             return fn(*args, **kwargs)
         return wrapped
     @app.route('/')
+    @app.route('/api/index')
+    @app.route('/api')
     def index(): return redirect(url_for('dashboard' if current_user.is_authenticated else 'login'))
     @app.route('/login', methods=['GET', 'POST'])
     @limiter.limit('10 per minute')

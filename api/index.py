@@ -17,12 +17,24 @@ try:
 
         def __call__(self, environ, start_response):
             try:
-                path = environ.get('PATH_INFO') or ''
-                for prefix in ('/api/index.py', '/api/index', '/api'):
-                    if path.startswith(prefix):
-                        new_path = path[len(prefix):]
-                        environ['PATH_INFO'] = new_path if new_path.startswith('/') else '/' + new_path
-                        break
+                # 1. Prefer original browser URI if rewritten by Vercel
+                real_uri = (
+                    environ.get('HTTP_X_FORWARDED_URI') or
+                    environ.get('HTTP_X_REAL_PATH') or
+                    environ.get('HTTP_X_MATCHED_PATH')
+                )
+                if real_uri:
+                    clean_path = real_uri.split('?')[0]
+                    if not clean_path.startswith('/api'):
+                        environ['PATH_INFO'] = clean_path
+                else:
+                    path = environ.get('PATH_INFO') or ''
+                    for prefix in ('/api/index.py', '/api/index', '/api'):
+                        if path.startswith(prefix):
+                            new_path = path[len(prefix):]
+                            environ['PATH_INFO'] = new_path if new_path.startswith('/') else ('/' + new_path)
+                            break
+
                 return self.wsgi_app(environ, start_response)
             except Exception as e:
                 err = traceback.format_exc()
@@ -36,7 +48,6 @@ except Exception as e:
     startup_err = traceback.format_exc()
     print(f"CRITICAL ERROR loading CyberShield:\n{startup_err}", file=sys.stderr)
 
-    # Fallback WSGI app to display the exact startup crash in the browser instead of generic Vercel 500
     def app(environ, start_response):
         start_response('500 Internal Server Error', [('Content-Type', 'text/plain; charset=utf-8')])
         return [f"CyberShield Startup Error:\n\n{startup_err}".encode('utf-8')]
