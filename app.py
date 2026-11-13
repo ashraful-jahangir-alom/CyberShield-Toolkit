@@ -22,25 +22,42 @@ from modules.report import build_report
 from modules.ssl_checker import check_ssl
 from modules.utils import authorization_notice, normalize_target
 def create_app():
-    app = Flask(__name__)
+    BASE_DIR = Path(__file__).resolve().parent
+    app = Flask(
+        __name__,
+        template_folder=str(BASE_DIR / 'templates'),
+        static_folder=str(BASE_DIR / 'static')
+    )
     app.config.from_object(Config)
-    for folder in (Config.UPLOAD_FOLDER, Config.REPORT_FOLDER): Path(folder).mkdir(exist_ok=True)
+    for folder in (Config.UPLOAD_FOLDER, Config.REPORT_FOLDER):
+        try:
+            Path(folder).mkdir(parents=True, exist_ok=True)
+        except Exception:
+            pass
     db.init_app(app); CSRFProtect(app)
     limiter = Limiter(get_remote_address, app=app, default_limits=['200 per day', '50 per hour'], storage_uri='memory://')
     login_manager = LoginManager(app); login_manager.login_view = 'login'; login_manager.login_message_category = 'warning'
-    if os.getenv("VERCEL") or os.getenv("VERCEL_ENV"):
+    
+    from config import is_serverless
+    if is_serverless():
         logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
     else:
-        Path('logs').mkdir(exist_ok=True)
-        logging.basicConfig(filename=Path('logs') / 'cybershield.log', level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
+        try:
+            Path('logs').mkdir(exist_ok=True)
+            logging.basicConfig(filename=Path('logs') / 'cybershield.log', level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
+        except Exception:
+            logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
     @login_manager.user_loader
     def load_user(user_id): return db.session.get(User, int(user_id))
     with app.app_context():
-        db.create_all()
-        if not User.query.filter_by(username=os.getenv('ADMIN_USERNAME', 'admin')).first():
-            admin = User(username=os.getenv('ADMIN_USERNAME', 'admin')); admin.set_password(os.getenv('ADMIN_PASSWORD', 'ChangeMe123!'))
-            db.session.add(admin); db.session.commit()
-            app.logger.warning('Default administrator created. Change ADMIN_PASSWORD immediately.')
+        try:
+            db.create_all()
+            if not User.query.filter_by(username=os.getenv('ADMIN_USERNAME', 'admin')).first():
+                admin = User(username=os.getenv('ADMIN_USERNAME', 'admin')); admin.set_password(os.getenv('ADMIN_PASSWORD', 'ChangeMe123!'))
+                db.session.add(admin); db.session.commit()
+                app.logger.warning('Default administrator created. Change ADMIN_PASSWORD immediately.')
+        except Exception as exc:
+            app.logger.error('Database initialization warning: %s', exc)
     def log_scan(target, module, result, risk='LOW', started=None):
         record = Scan(user_id=current_user.id, target=target, module=module, result=json.dumps(result, default=str), risk=risk, duration=round(time.time() - started, 2) if started else 0)
         db.session.add(record); db.session.commit(); app.logger.info('%s scan on %s by %s', module, target, current_user.username)
