@@ -45,12 +45,12 @@ def is_safe_target(host):
         from dns import resolver, exception as dns_exception
 
         try:
-            answers = resolver.resolve(host, "A").rrset.items
+            answers = resolver.resolve(host, "A")
+            return not any(_is_private_or_reserved(str(r)) for r in answers)
         except (resolver.NXDOMAIN, resolver.NoAnswer, dns_exception.NotImplementedError, dns_exception.Timeout):
             return False
         except Exception:
             return False
-        return not any(_is_private_or_reserved(str(r) for r in answers))
     return not (_is_private_or_reserved(str(resolved)) or resolved.is_loopback or resolved.is_link_local or resolved.is_reserved or resolved.is_multicast)
 
 

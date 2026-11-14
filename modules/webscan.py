@@ -4,8 +4,23 @@ from .security_headers import assess_headers
 
 
 def scan(host):
-    url = host if host.startswith(('http://', 'https://')) else f'https://{host}'
-    response = requests.get(url, timeout=12, allow_redirects=True, headers={'User-Agent': 'CyberShield-Authorized-Assessment/1.0'})
+    headers_req = {'User-Agent': 'CyberShield-Authorized-Assessment/1.0'}
+    if host.startswith(('http://', 'https://')):
+        candidates = [host]
+    else:
+        candidates = [f'https://{host}', f'http://{host}']
+
+    response = None
+    last_err = None
+    for target_url in candidates:
+        try:
+            response = requests.get(target_url, timeout=10, allow_redirects=True, headers=headers_req)
+            break
+        except Exception as exc:
+            last_err = exc
+
+    if response is None:
+        raise RuntimeError(f"Could not connect to {host}: {last_err}")
     headers = dict(response.headers)
     cookies = [{'name': c.name, 'secure': bool(c.secure), 'http_only': 'httponly' in (c._rest or {})} for c in response.cookies]
     body = response.text[:250000]
